@@ -5,8 +5,8 @@ For this experimental_media_lab project, you will need to install the RGB Matrix
 
 The way to do this is by:
 
-First step make sure Raspberry Pi's operating system is up to date by running the following commands in the Terminal or Command Prompt : `sudo apt update`  `sudo apt upgrade`
-- Second, use `git` to clone the `rpi-rgb-led-matrix` repository from GitHub: `git clone https://github.com/hzeller/rpi-rgb-led-matrix.git
+- First, make sure Raspberry Pi's operating system is up-to-date by running the following commands in the terminal: `sudo apt update' `sudo apt-upgrade' 
+- Second, use `git` to clone the `rpi-rgb-led-matrix` repository from GitHub: `git clone https://github.com/hzeller/rpi-rgb-led-matrix.git  
 - Third Step is go into RGB Matrix library folder: `cd rpi-rgb-led-matrix`
 - Fourth step is once you in this folder we run the command `make build-python PYTHON=$(which python 3)'
 - Fifth step is install python onto this folder by running this code `sudo make install-python`
